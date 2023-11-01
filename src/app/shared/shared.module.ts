@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CardComponent } from './components/card/card.component';
 import { SearchComponent } from './components/search/search.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ListComponent } from './components/list/list.component';
 
 
 
@@ -10,14 +11,17 @@ import { HeaderComponent } from './components/header/header.component';
   declarations: [
     CardComponent,
     SearchComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     CardComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListComponent,
+    SearchComponent
   ]
 })
 export class SharedModule { }
