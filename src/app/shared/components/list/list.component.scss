@@ -1,0 +1,7 @@
+@import '../../../styles/rem-calc.scss';
+
+.list {
+  margin: rem-calc(20) 0;
+  display: flex;
+  justify-content: space-between;
+}

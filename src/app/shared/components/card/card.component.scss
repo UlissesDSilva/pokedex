@@ -1,6 +1,38 @@
-.card {
-  width: 290px;
-  height: 157px;
-  border-radius: 10px;
-  background-color: #fff;
+@import '../../../styles/rem-calc.scss';
+
+
+:host {
+  margin: 0;
+  width: 49%;
+  height: rem-calc(157);
+
+  .card {
+    display: flex;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: rem-calc(20);
+    
+    &__info {      
+      h2 {
+        font-size: rem-calc(22);
+        font-style: italic;
+        font-weight: 700;
+        margin-bottom: rem-calc(10);
+      }
+  
+      ul {
+        list-style: none;
+      }
+    }
+    
+    &__img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: rem-calc(110);
+      height: rem-calc(90);
+      margin-top: rem-calc(30);
+      background: url('../../../../assets/fundo.svg') no-repeat;
+    }
+  }
 }

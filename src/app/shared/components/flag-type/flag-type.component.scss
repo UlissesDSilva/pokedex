@@ -1,0 +1,15 @@
+@import '../../../styles/rem-calc.scss';
+@import '../../../styles/variables';
+
+.flag-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem-calc(55);
+  height: rem-calc(16);
+  border-radius: rem-calc(32);
+  padding: rem-calc(3) rem-calc(14);
+  background-color: $flag-color;
+  font-size: rem-calc(10);
+  margin-bottom: rem-calc(5);
+}

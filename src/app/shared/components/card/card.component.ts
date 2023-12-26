@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-
+  public name: string = "Bulbasaur";
+  public type: string = "Tipo";
 }
